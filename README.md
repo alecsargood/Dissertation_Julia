@@ -1,10 +1,9 @@
 # Dissertation_Julia
-Julia code developed for the dissertation titled "Gene-Expression Time Delays in Reaction Diffusion Systems"
+Julia and MATLAB code developed for the paper titled "Fixed and Distributed Gene Expression Time Delays in Reaction-Diffusion Systems"
 
-Numerical simulations for stiff Reaction-Diffusion systems, with Schnakenberg or Gierer-Meinhardt kinetics, can be run from the main.jl file. The script allows
-incorporation of gene-expression time delays, in the form of a fixed delay, or distributed delay. Distributions considered include the skew and symmetric truncated 
+The code allows for both analtyical and numerical exploration of reaction-diffusion models with delay. Numerical simulations for stiff Reaction-Diffusion systems, with Schnakenberg or Gierer-Meinhardt kinetics, can be run from the main.jl file. The script allows incorporation of gene-expression time delays, in the form of a fixed delay, or distributed delay. Distributions considered include the skew and symmetric truncated 
 Gaussian pdfs. 
 
-main.jl: The main file where numerical solutions are generated.
-func_mod.jl: Script where parameter structure is initialised, and relevent functions are defined.
-Remaining scripts are auxillary files where problem dependent information is held (e.g. RHS of system with fixed delay, distributed delay)
+Below is an overview of the code used to generate the figures in the given paper:
+
+Figure 1: Produced uisng the 'Distributions.m' script - by setting the relevant parameter values and running the script (sections).
