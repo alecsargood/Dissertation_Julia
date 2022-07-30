@@ -21,7 +21,7 @@ Figure 6: Produced using the 'fixed.m' script - running the first section to pic
           
 Figures 7&8 - The numerical results are produces by running the 'main.jl' script (for fixed delay, with set threshold and initial conditions), and then
               then plotting 'tauvec' against 'ttakenvec'. The 'analytical' results in Figure 7 are produced by using eqn 24. The values for A_k(T*) are
-              stored in 'ATvec', and the value of A_k(0) stored as 'A0'. We note that the dispersion analysis (as produced in Figure 6) to first be
+              stored in 'ATvec', and the value of $A_k$(0) stored as 'A0'. We note that the dispersion analysis (as produced in Figure 6) to first be
               conducted to find the dominant k and $\lambda_k$ values. 
               
           
