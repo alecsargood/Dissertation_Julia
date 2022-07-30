@@ -16,7 +16,7 @@ Figures 3 and 4: Produced using the 'fixed.m' script - running the first section
                  
 Figure 5:
 
-Figure 6: Produced using the 'fixed.m' script - running the first section to pick the model, fillowed by the third section title 'Dispersion relation' with
+Figure 6: Produced using the 'fixed.m' script - running the first section to pick the model, followed by the third section title 'Dispersion relation' with
           the selected parameter values.
           
           
