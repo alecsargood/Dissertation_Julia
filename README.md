@@ -1,9 +1,9 @@
 # Dissertation_Julia
-Julia and MATLAB code developed for the paper titled "Fixed and Distributed Gene Expression Time Delays in Reaction-Diffusion Systems"
+Julia and MATLAB code developed for the paper titled "Fixed and Distributed Gene Expression Time Delays in Reaction-Diffusion Systems" https://arxiv.org/abs/2205.05410.
 
-The code allows for both analtyical and numerical exploration of reaction-diffusion models with delay. Numerical simulations for stiff Reaction-Diffusion systems, with Schnakenberg or Gierer-Meinhardt kinetics, can be run from the 'main.jl' file. The script allows incorporation of gene-expression time delays, in the form of a fixed delay, or distributed delay. Distributions considered include the skew and symmetric truncated Gaussian pdfs. 
+The code allows for both analytical and numerical exploration of reaction-diffusion models with delay. Numerical simulations for stiff Reaction-Diffusion systems, with Schnakenberg or Gierer-Meinhardt kinetics, can be run from the 'main.jl' file. The script allows incorporation of gene-expression time delays, in the form of a fixed delay, or distributed delay. Distributions considered include the skew and symmetric truncated Gaussian pdfs. 
 
-We note that for the MATLAB codes to run, Chebfun is required.
+We note that for the MATLAB codes to run, Chebfun is required https://www.chebfun.org.
 
 Below is an overview of the code used to generate the figures in the given paper:
 
@@ -18,7 +18,6 @@ Figures 3 and 4: Produced using the 'fixed.m' script - running the first section
                  
 Figure 5: The Fixed delay curve produced analogously to Figure 6 (see below). The skewed curves can be computed by running the
           'dist.m' script (with the given parameter values). The curve is plotted by plotting 'tauvec' against 'results_vec'.
-
 Figure 6: Produced using the 'fixed.m' script - running the first section to pick the model, followed by the third section
           titled 'Dispersion relation' with the selected parameter values.
           
@@ -26,7 +25,7 @@ Figures 7,8,9 - The numerical results are produced by running the 'main.jl' scri
                 initial conditions), and then then plotting 'tauvec' against 'ttakenvec'. The 'analytical' results in Figure
                 arep roduced by using eqn 24. The values for $A_k(T^*)$ are stored in 'ATvec', and the value of $A_k$(0) stored
                 as 'A0'. We note that the dispersion analysis (as produced in Figure 6) to first be conducted to find the dominant
-                k and $\lambda_k$ values. The relevant model kinetics and steady-states must be ammended in the  'func_mod.jl'
+                k and $\lambda_k$ values. The relevant model kinetics and steady-states must be amended in the  'func_mod.jl'
                 script (e.g. LI or GM kinetics).
                 
 Figures 10,11 - Produced by running the 'main.jl' script - by setting the relevent problem type and parameters for numerical
@@ -34,7 +33,7 @@ Figures 10,11 - Produced by running the 'main.jl' script - by setting the releve
 
 Figures 12,13 - Plots (a) produced analogously to Figure 2. Plots (b), (c) and (d) produced analogously to Figures 10 and 11.
 
-Figure 14 - Taken from cited paper.
+Figure 14 - Plots of functions given in cited paper.
 
 Figures 15,16 - Produced analogously to Figures 10,11 with different initial conditions set in 'func_mod.jl' script.
 
