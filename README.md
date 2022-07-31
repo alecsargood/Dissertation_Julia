@@ -14,7 +14,8 @@ Figure 2: Produced using the 'TuringSpace.m' script - running either section 1 o
 Figures 3 and 4: Produced using the 'fixed.m' script - running the first section to pick the model, followed by the second section titled 'Bifurcation  
                  diagram' with the selected parameter values. 
                  
-Figure 5:
+Figure 5: The Fixed delay curve produced analogously to Figure 6 (see below). The skewed curves can be computed by running the
+          'dist.m' script (with the given parameter values). The curve is plotted by plotting 'tauvec' against 'results_vec'.
 
 Figure 6: Produced using the 'fixed.m' script - running the first section to pick the model, followed by the third section title 'Dispersion relation' with
           the selected parameter values.
